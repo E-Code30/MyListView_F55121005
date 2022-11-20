@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edward">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Edward C. Jefta G." />
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/eta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/img_photo"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="26dp"
+        android:text="Seorang Mahasiswa Universitas Tadulako Bernama Edward Crysanthus Jefta Geofrey dengan Stambuk F55121005 Berada di Kelas A dan sedang mengampu 8 mata kuliah dengan 5 praktikum."
+        android:textAlignment="center"/>
+
+</RelativeLayout>
